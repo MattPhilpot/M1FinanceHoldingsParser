@@ -1,6 +1,7 @@
 # M1FinanceHoldingsParser
-Simple javascript to parse holdings on M1Finance into a CSV. Credit for the original script goes to someone else, not me. But I have since updated it for the latest M1Finance layout.
 
+## Description
+Simple javascript to parse holdings on M1Finance into a CSV. 
 
 All this does is grab the first table element on the page, read through the rows, and output a big string - but obviously use at your own risk. My purpose in sharing this is just for individual use within a single account and expressly not to support any type of automated scraping.
 
@@ -66,3 +67,5 @@ function holdingsToCSV() {
 
 console.log(holdingsToCSV());
 ```
+### Credit
+Credit for the original script goes to someone else, not me. But I have since updated it for the latest M1Finance layout.
